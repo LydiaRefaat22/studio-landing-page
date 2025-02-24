@@ -1,46 +1,71 @@
-.m{
-    background-image: url(header-bg.jpg);
+:root{
+    --mainColor:#c72092
+}
+
+.logo{
+    color: var(--mainColor);
+    text-decoration: bold !important ;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.s{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.fa-solid{
+    color: black;
+    cursor: pointer;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    color: var(--mainColor)!important;
+}
+.navbar{
+    box-shadow: 0 0 10px 5px #9E9E9E;
+}
+#home{
+    background-image: url(image/bg1.png);
+    height: 100vh;
     background-size: cover;
+    background-position: center center;
+   
 }
-form{
-    padding: 30px;
-    display: grid;
-    grid-template-areas:
-    "em em em tex tex tex"
-    "pass pass pass tex tex tex"
-    "pho pho pho tex tex tex"
-    ;
-    gap: 10px 10px;
+.s1h1{
+    color: var(--mainColor);
+   font-weight: bold;
+  
     
 }
-.em{
-    grid-area: em;
+.sec1p{
+    font-weight: bolder;
 }
-.tex{
-    grid-area: tex;
+.sec2h2{
+    color: var(--mainColor);
 }
-.pass{
-    grid-area: pass;
+.card-img-top{
+   
+    width: 50%;
+    height: auto;
+    cursor: pointer;
 }
-.pho{
- grid-area: pho;
+.css{
+    overflow: hidden;
 }
-.bg{
-    background-image:;
-    background-size: cover;
-}
-.h3{
-    margin: auto;
-    padding: 20px;
-}
-#button{
-    position: fixed;
+.card-img-top:hover{
+    transform: scale(1.2);
     
-  display:none;
-    bottom: 10px;
-    right: 10px;
-    width: 55px;
-    
-    display:none;
-    
+}
+.btn-custom{
+    background-color: var(--mainColor);
+}
+.card{
+    box-shadow: 0px 0px 5px 0px var(--mainColor);
+}
+.shoes{
+    border-radius: 3px;
+    border: 2px solid var(--mainColor);
+    background-color: var(--mainColor);
 }
