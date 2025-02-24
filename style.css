@@ -1,0 +1,46 @@
+.m{
+    background-image: url(header-bg.jpg);
+    background-size: cover;
+}
+form{
+    padding: 30px;
+    display: grid;
+    grid-template-areas:
+    "em em em tex tex tex"
+    "pass pass pass tex tex tex"
+    "pho pho pho tex tex tex"
+    ;
+    gap: 10px 10px;
+    
+}
+.em{
+    grid-area: em;
+}
+.tex{
+    grid-area: tex;
+}
+.pass{
+    grid-area: pass;
+}
+.pho{
+ grid-area: pho;
+}
+.bg{
+    background-image:;
+    background-size: cover;
+}
+.h3{
+    margin: auto;
+    padding: 20px;
+}
+#button{
+    position: fixed;
+    
+  display:none;
+    bottom: 10px;
+    right: 10px;
+    width: 55px;
+    
+    display:none;
+    
+}
